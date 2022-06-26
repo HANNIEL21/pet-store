@@ -1,0 +1,92 @@
+$primary: #000000;
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: url(./assets/font/GTWalsheimPro-Bold.ttf) format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: url(./assets/font/GTWalsheimPro-Light.ttf) format('truetype');
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: url(./assets/font/GTWalsheimPro-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: url(./assets/font/GTWalsheimPro-Regular.ttf) format('truetype');
+  font-weight: normal;
+}
+
+@import "bootstrap/dist/css/bootstrap.css";
+@import "./pages/page.scss";
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none !important;
+}
+
+body{
+  font-family: 'GT Walsheim Pro';
+  background-color: #E2E2E2;
+}
+input{
+  outline: none !important;
+}
+.logo{
+  width: 100px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.carousel-inner{
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  position: relative;
+
+  img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .card-img-overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba($color: #000000, $alpha: 0.4);
+  }
+
+  .carousel-caption{
+    position: absolute;
+    top: 0;
+    padding: 90px 0;
+  }
+}
+
+@media screen and (min-width: 678px) {
+  .carousel-inner{
+    height: 280px;
+
+    img{
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}
