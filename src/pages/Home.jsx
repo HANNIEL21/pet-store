@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousel from '../components/Carousel'
+import Categories from '../components/Categories'
 import ProductListing from '../components/ProductListing'
 
 const Home = () => {
@@ -12,9 +13,7 @@ const Home = () => {
             <Carousel />
           </div>
           <div className="col-3 d-none d-md-flex">
-            <div className="d-flex jsutify-content-center align-items-center">
-              <h4>Category</h4>
-            </div>
+            <Categories />
           </div>
         </div>
       </section>

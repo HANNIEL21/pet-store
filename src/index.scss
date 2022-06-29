@@ -1,4 +1,4 @@
-$primary: #000000;
+
 
 @font-face {
   font-family: 'GT Walsheim Pro';
@@ -14,21 +14,23 @@ $primary: #000000;
 
 @font-face {
   font-family: 'GT Walsheim Pro';
-  src: url(./assets/font/GTWalsheimPro-Medium.ttf) format('truetype');
+  src: url(                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ./assets/font/GTWalsheimPro-Medium.ttf) format('truetype');
 }
 
-@font-face {
-  font-family: 'GT Walsheim Pro';
+@font-face {                                                    
+  font-family: 'GT Walsheim Pro';                                                                                                   
   src: url(./assets/font/GTWalsheimPro-Regular.ttf) format('truetype');
   font-weight: normal;
 }
 
-@import "bootstrap/dist/css/bootstrap.css";
-@import "./pages/page.scss";
+$primary: #004AAD;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./pages/page.scss";                                                                                                                                                                                                                                                                                                                                                                                                                                        
 
 
 *{
-  margin: 0;
+  margin: 0;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
   padding: 0;
   box-sizing: border-box;
   outline: none !important;
