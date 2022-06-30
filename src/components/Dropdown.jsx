@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Dropdown = () => {
-    const isVendor = false;
+    const isVendor = true;
     return (
         <>
             <div className="dropdown">
