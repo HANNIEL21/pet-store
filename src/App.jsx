@@ -7,7 +7,7 @@ import Header from "./components/Header";
 // Pages
 import Home from "./pages/Home";
 import Services from "./pages/Services";
-import ProductDdetails from "./pages/ProductDdetails";
+import ProductDetails from "./pages/ProductDetails";
 import Cart from "./pages/Cart";
 import Login from "./pages/Auth/Login";
 import SignUp from "./pages/Auth/SignUp";
@@ -26,7 +26,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/services" element={<Services />} />
-          <Route exact path="/product" element={<ProductDdetails />} />
+          <Route exact path="/product/:productId" element={<ProductDetails />} />
           <Route exact path="/payment" element={<Payment />} />
           <Route exact path="/profile" element={<Profile />} />
           <Route exact path="/dashboard" element={<DashBoard />} />
