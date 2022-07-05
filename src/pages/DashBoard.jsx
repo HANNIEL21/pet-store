@@ -42,7 +42,9 @@ const DashBoard = () => {
           <div className="container p-0">
             <div className="row gap-4">
               <div className="col-md-3 rounded-3 bg-primary py-5 shadow"></div>
-              <div className="col rounded-3 bg-primary py-5"></div>
+              <div className="col rounded-3 bg-primary py-5">
+                <h2 className='text-white'>All Items</h2>
+              </div>
             </div>
           </div>
         </div>

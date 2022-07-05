@@ -18,7 +18,7 @@ const Home = () => {
         </div>
       </section>
       <section>
-        <div className="container py-3 min-vh-100">
+        <div className="container rounded-3 bg-white py-5 my-5">
           <ProductListing />
         </div>
       </section>
